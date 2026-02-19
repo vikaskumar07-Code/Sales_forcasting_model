@@ -4,3 +4,9 @@ Matplotlib
 Seaborn
 Scikit-learn
 dill
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+ollama
+streamlit
