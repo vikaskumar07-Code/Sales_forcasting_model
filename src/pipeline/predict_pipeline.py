@@ -28,7 +28,7 @@ class CustomData:
         Fuel_Price:float,
         CPI:float,
         Unemployment:float,
-        Temperature_C:float,
+        Temperature:float,
         Year:int,
         Month_Name:str):
         self.Store = Store

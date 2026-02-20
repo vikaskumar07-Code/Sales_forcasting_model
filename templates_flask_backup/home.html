@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Forecasting</title>
+</head>
+<body>
+    <h2>Sales Prediction</h2>
+    <form action="/predictdata" method="post">
+
+        Store: <input type="number" name="Store"><br><br>
+        Holiday Flag: <input type="number" name="Holiday_Flag"><br><br>
+        Fuel Price: <input type="text" name="Fuel_Price"><br><br>
+        CPI: <input type="text" name="CPI"><br><br>
+        Unemployment: <input type="text" name="Unemployment"><br><br>
+        Temperature (C): <input type="text" name="Temperature_C"><br><br>
+        Year: <input type="number" name="Year"><br><br>
+
+        Month:
+        <select name="Month_Name">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <h3>The Prediction is {{ results }}</h3>
+</body>
+</html>
